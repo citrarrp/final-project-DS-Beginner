@@ -7,6 +7,6 @@ Disini saya melakukan klasifikasi gambar pada lokasi konstruksi berdasarkan peng
 
 📂 File:
 - final_project.ipynb: Notebook utama berisi training & evaluasi model
-- model.py: Script model
+- app.py: Script aplikasi streamlit
 - README.md: Panduan singkat
 
