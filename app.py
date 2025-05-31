@@ -66,7 +66,7 @@ def main():
             heatmap = cv2.resize(heatmap, (224, 224))
             heatmap = np.uint8(255 * heatmap)
             heatmap_color = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
-            superimposed_img = heatmap_color * 0.2 + img
+            superimposed_img = heatmap_color * 0.4 + img
             superimposed_img = np.uint8(superimposed_img)
             # Tampilkan hasil prediksi
             st.markdown("---")
