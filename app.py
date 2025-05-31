@@ -7,7 +7,7 @@ from utils.preprocessing import preprocess_image
 from utils.gradcam import make_gradcam_heatmap 
 import cv2
 
-st.set_page_config(page_title="Klasifikasi Pelanggaran K3 dengan ResNet50", layout="centered", page_icon="🛡️")
+st.set_page_config(page_title="Klasifikasi Pelanggaran K3", layout="centered", page_icon="🛡️")
 
 @st.cache_resource
 def load_classification_model():
@@ -19,7 +19,7 @@ def load_classification_model():
         return None
 
 def main():
-    st.title("🛡️ Deteksi Pelanggaran K3 dengan ResNet50")
+    st.title("🛡️ Deteksi Pelanggaran K3")
     st.markdown("---")
     st.markdown("📋 **Upload gambar dan lihat klasifikasi pelanggaran!**")
 
